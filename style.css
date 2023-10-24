@@ -1,0 +1,9 @@
+body {
+    height: 100%;
+    background: linear-gradient(to bottom right,rgb(63, 65, 73), slategrey);
+    text-align: center;
+    margin: auto;
+    background-attachment: fixed;
+    color: white;
+    font-family:sans-serif
+}
