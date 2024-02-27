@@ -1,0 +1,45 @@
+body {
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    background-attachment: fixed;
+    background: black;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#header {
+    transition-duration: 500ms;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 200px;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    transition: opacity 1s;
+}
+
+
+#header:hover {
+    transition-duration: 1s;
+    background: white;
+    color: black;
+    opacity: 0.8;
+} 
+
+#TIME {
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
